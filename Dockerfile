@@ -65,8 +65,6 @@ RUN apk add --update wget ca-certificates dnsmasq && \
 COPY dns.sh /etc/services.d/dns/run
 RUN chmod 755 /etc/services.d/dns/run
 
-ONBUILD COPY java-service.sh /etc/services.d/java-service/run
-ONBUILD RUN chmod 755 /etc/services.d/java-service/run
 
 ENTRYPOINT ["/init"]
 CMD []
