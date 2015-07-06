@@ -4,7 +4,7 @@ A simple but powerful Java base image, based on Alpine Linux with S6 as a proces
 
 This image aims to be a suitable base image for people who want to deploy Java containers to [Tutum](http://tutum.co).
 
-[![](https://badge.imagelayers.io/vizzbuzz/base-java.svg)](https://imagelayers.io/?images=vizzbuzz/base-alpine:latest 'Get your own badge on imagelayers.io')
+[![](https://badge.imagelayers.io/vizzbuzz/base-java.svg)](https://imagelayers.io/?images=vizzbuzz/base-java:latest 'Get your own badge on imagelayers.io')
 
 ##Credits
 
