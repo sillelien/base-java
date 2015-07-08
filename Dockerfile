@@ -56,5 +56,7 @@ RUN apk add --update wget ca-certificates dnsmasq && \
            $JAVA_HOME/jre/lib/jfr \
            $JAVA_HOME/jre/lib/oblique-fonts && \
     apk del wget ca-certificates && \
-    rm /tmp/* /var/cache/apk/*
+    rm /tmp/* /var/cache/apk/* && \
+    echo 'hosts: files mdns4_minimal [NOTFOUND=return] dns mdns4' >> /etc/nsswitch.conf
+    # about nsswitch.conf - see https://registry.hub.docker.com/u/frolvlad/alpine-oraclejdk8/dockerfile/
 
