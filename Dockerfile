@@ -4,7 +4,8 @@ MAINTAINER hello@neilellis.me
 ENV JAVA_VERSION=8 \
     JAVA_UPDATE=45 \
     JAVA_BUILD=14 \
-    JAVA_HOME=/usr/lib/jvm/default-jvm
+    JAVA_HOME=/usr/lib/jvm/default-jvm \
+    PATH=${PATH}:${JAVA_HOME}/bin
 
 RUN apk add --update wget ca-certificates dnsmasq && \
     cd /tmp && \
