@@ -1,4 +1,4 @@
-# base-alpine 
+# base-java 
 
 A simple but powerful Java base image, based on Alpine Linux with S6 as a process supervisor and dnsmasq both of which have extremely small footprints adding virtually no runtime overhead and a minimal filesystem overhead. Alas Java 8 adds a pretty large overhead.
 

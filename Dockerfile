@@ -58,4 +58,3 @@ RUN apk add --update wget ca-certificates dnsmasq && \
     apk del wget ca-certificates && \
     rm /tmp/* /var/cache/apk/*
 
-CMD []
