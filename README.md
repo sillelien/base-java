@@ -4,6 +4,15 @@ A simple but powerful Java base image, based on Alpine Linux with S6 as a proces
 
 This image aims to be a suitable base image for people who want to deploy Java containers to [Tutum](http://tutum.co).
 
+All you should need is something like:
+
+```Dockerfile
+FROM vizzbuzz/base-java
+EXPOSE 8080
+COPY target/myapp-1.0-SNAPSHOT-jar-with-dependencies.jar /app/myapp-1.0-SNAPSHOT-jar-with-dependencies.jar
+CMD java -jar /app/myapp-1.0-SNAPSHOT-jar-with-dependencies.jar < /conf/conf.yml
+
+```
 [![](https://badge.imagelayers.io/vizzbuzz/base-java.svg)](https://imagelayers.io/?images=vizzbuzz/base-java:latest 'Get your own badge on imagelayers.io')
 
 ##Credits
