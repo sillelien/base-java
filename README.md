@@ -1,8 +1,12 @@
 # base-java 
 
+
 A simple but powerful Java base image, based on Alpine Linux with S6 as a process supervisor and dnsmasq both of which have extremely small footprints adding virtually no runtime overhead and a minimal filesystem overhead. Alas Java 8 adds a pretty large overhead.
 
 This image aims to be a suitable base image for people who want to deploy Java containers to [Tutum](http://tutum.co).
+
+THis image can be found in the [Docker Registry](https://registry.hub.docker.com/u/vizzbuzz/base-java/)
+
 
 All you should need is something like:
 
