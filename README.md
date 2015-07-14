@@ -5,7 +5,7 @@ A simple but powerful Java base image, based on Alpine Linux with S6 as a proces
 
 This image aims to be a suitable base image for people who want to deploy Java containers to [Tutum](http://tutum.co).
 
-THis image can be found in the [Docker Registry](https://registry.hub.docker.com/u/vizzbuzz/base-java/)
+This image can be found in the [Docker Registry](https://registry.hub.docker.com/u/vizzbuzz/base-java/)
 
 
 All you should need is something like:
