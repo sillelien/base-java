@@ -11,7 +11,7 @@ This image can be found in the [Docker Registry](https://registry.hub.docker.com
 All you should need is something like:
 
 ```Dockerfile
-FROM vizzbuzz/base-java
+FROM sillelien/base-java
 EXPOSE 8080
 COPY target/myapp-1.0-SNAPSHOT-jar-with-dependencies.jar /app/myapp-1.0-SNAPSHOT-jar-with-dependencies.jar
 CMD java -jar /app/myapp-1.0-SNAPSHOT-jar-with-dependencies.jar < /conf/conf.yml
