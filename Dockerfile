@@ -1,4 +1,4 @@
-FROM vizzbuzz/base-alpine:0.9.1
+FROM sillelien/base-alpine:0.9.1
 MAINTAINER hello@neilellis.me
 
 ENV JAVA_VERSION=8 \
