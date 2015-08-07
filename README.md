@@ -1,5 +1,7 @@
 # base-java 
 
+[![Join the chat at https://gitter.im/sillelien/base-java](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/sillelien/base-java?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 **If you use this image please consider giving it a star on Github**
 
 A simple but powerful Java base image, based on Alpine Linux with S6 as a process supervisor and dnsmasq both of which have extremely small footprints adding virtually no runtime overhead and a minimal filesystem overhead. Alas Java 8 adds a pretty large overhead.
